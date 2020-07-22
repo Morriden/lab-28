@@ -11,6 +11,7 @@ describe('Form component', () => {
         onLinkChange={() => {}}
         onBodyChange={() => {}}
         onSubmit={() => {}}
+        handleOptionChange={() => {}}
     />);
     expect(wrapper).toMatchSnapshot();
   });

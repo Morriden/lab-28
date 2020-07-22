@@ -18,5 +18,29 @@ exports[`Form component should render to input fields and one button for now. 1`
   >
     JSON Body
   </input>
+  <input
+    name="route"
+    onChange={[Function]}
+    type="radio"
+    value="GET"
+  />
+  <input
+    name="route"
+    onChange={[Function]}
+    type="radio"
+    value="POST"
+  />
+  <input
+    name="route"
+    onChange={[Function]}
+    type="radio"
+    value="PUT"
+  />
+  <input
+    name="route"
+    onChange={[Function]}
+    type="radio"
+    value="DELETE"
+  />
 </form>
 `;

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form component should render the display section 1`] = `
+<section>
+  <div>
+    I'm a JSON File
+  </div>
+</section>
+`;

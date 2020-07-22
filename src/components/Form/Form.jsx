@@ -11,8 +11,10 @@ const Form = ({ linkInput, onLinkChange, onBodyChange, onSubmit, bodyInput }) =>
 
 Form.propTypes = {
     linkInput: PropTypes.string.isRequired,
-    onChange: PropTypes.func.isRequired,
-    onSubmit: PropTypes.func
+    onLinkChange: PropTypes.func.isRequired,
+    onBodyChange: PropTypes.func.isRequired,
+    onSubmit: PropTypes.func.isRequired,
+    bodyInput: PropTypes.string.isRequired,
 }
 
 export default Form;

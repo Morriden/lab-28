@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form component should render to input fields and one button for now. 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <input
+    onLinkChange={[Function]}
+    type="text"
+    value="somewebsite.com"
+  >
+    URL
+  </input>
+  <input
+    onBodyChange={[Function]}
+    type="text"
+    value="someJSONbodyinfo"
+  >
+    JSON Body
+  </input>
+</form>
+`;

@@ -5,9 +5,9 @@ import Display from './Display';
 describe('Form component', () => {
   it('should render the display section', () => {
     const wrapper = shallow(
-    <Display 
+      <Display 
         responseInfo="I'm a JSON File"
-    />);
+      />);
     expect(wrapper).toMatchSnapshot();
   });
 });

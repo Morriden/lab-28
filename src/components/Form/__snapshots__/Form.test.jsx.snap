@@ -5,42 +5,45 @@ exports[`Form component should render to input fields and one button for now. 1`
   onSubmit={[Function]}
 >
   <input
-    onLinkChange={[Function]}
+    onChange={[Function]}
     type="text"
     value="somewebsite.com"
-  >
-    URL
-  </input>
+  />
   <input
-    onBodyChange={[Function]}
+    onChange={[Function]}
     type="text"
     value="someJSONbodyinfo"
-  >
-    JSON Body
-  </input>
+  />
   <input
+    checked={false}
     name="route"
     onChange={[Function]}
     type="radio"
     value="GET"
   />
   <input
+    checked={false}
     name="route"
     onChange={[Function]}
     type="radio"
     value="POST"
   />
   <input
+    checked={false}
     name="route"
     onChange={[Function]}
     type="radio"
     value="PUT"
   />
   <input
+    checked={false}
     name="route"
     onChange={[Function]}
     type="radio"
     value="DELETE"
   />
+  <button>
+    Submit
+  </button>
 </form>
 `;

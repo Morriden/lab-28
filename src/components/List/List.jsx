@@ -1,22 +1,22 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const List = ({ lists }) => {
-  const listElements = lists.map(list => (
-    <li key={list}>
-      {list}
+const List = ({ items }) => {
+  const itemElements = items.map(item => (
+    <li key={item}>
+      {item}
     </li>
   ));
 
   return (
     <ul>
-      {listElements}
+      {itemElements}
     </ul>
   );
 };
 
 List.propTypes = {
-  lists: PropTypes.arrayOf(PropTypes.string).isRequired
+  items: PropTypes.arrayOf(PropTypes.string).isRequired
 };
 
 export default List;

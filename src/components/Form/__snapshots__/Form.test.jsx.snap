@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form component should render to input fields and one button for now. 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <input
+    onChange={[Function]}
+    type="text"
+    value="somewebsite.com"
+  />
+  <input
+    onChange={[Function]}
+    type="text"
+    value="someJSONbodyinfo"
+  />
+  <input
+    checked={false}
+    name="route"
+    onChange={[Function]}
+    type="radio"
+    value="GET"
+  />
+  <input
+    checked={false}
+    name="route"
+    onChange={[Function]}
+    type="radio"
+    value="POST"
+  />
+  <input
+    checked={false}
+    name="route"
+    onChange={[Function]}
+    type="radio"
+    value="PUT"
+  />
+  <input
+    checked={false}
+    name="route"
+    onChange={[Function]}
+    type="radio"
+    value="DELETE"
+  />
+  <button>
+    Submit
+  </button>
+</form>
+`;
